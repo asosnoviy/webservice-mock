@@ -2,6 +2,6 @@
 
 echo "Собираю контейнеры для эмуляции сервисов"
 
-pushd ./soap-ui-mock
+pushd /vagrant/soapui-mock
 docker build -t vanessa/soapui-mockservice-runner .
 popd

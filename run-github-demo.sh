@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd /vagrant/soapui-mock
 docker run -it --rm \
     -p 8080:8080 -v /vagrant:/home/soup-ui/fitservice \
     -e MOCK_SERVICE_NAME=GitHubDemo \
