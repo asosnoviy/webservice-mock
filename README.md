@@ -12,8 +12,8 @@
 
 ```
 vagrant up
-vagrant ssh /vagrant/build.sh
-vagrant ssh /vagrant/run-github-demo.sh
+vagrant ssh -c "\/vagrant/build.sh"
+vagrant ssh -c "\/vagrant/run-github-demo.sh"
 ```
 
 * на порту 9997 наблюдаем наш mock сервер для API GitHub
